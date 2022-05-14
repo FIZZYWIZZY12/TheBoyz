@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+  <head>
+    <title>VOTE FOR THE WINNER</title>
+        <style>
+      body{
+        background-image: url('wallpaper.png');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+      }
+      .title{
+       font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+font-size: 50px;
+letter-spacing: 2.8px;
+word-spacing: 2px;
+color: #000000;
+font-weight: normal;
+font-style: italic;
+font-variant: small-caps;
+text-transform: none;
+text-align: center;
+text-shadow: 0 0 5px #FFF, 0 0 20px #423BFF, 0 0 30px #2E26FF, 0 0 40px #2E26FF, 0 0 55px #2E26FF, 0 0 75px #0007FF, 2px 2px 4px rgba(66,59,255,0);
+      }
+      
+      </style>
+  </head>
+  <body>
+    <form action="/action_page.php" method="get" target="_blank">
+    <div align="center">
+      <h1 class="title">Who won?</h1>
+      <label for="What is your name">Name</label>
+      <input type="text" id="name" name="name">
+      <br><br>
+      WHO WINS?
+      <select name="winner"><option>
+        <option value=0 selected="true">Anthony</option>
+        <option value =1>Dylan</option>
+        <option value =2>Mr.Gibson</option>
+        </option></select>
+      <br><br>
+      Why did you pick who you picked?<br><br>
+      <textarea name="Comments"cols=30 rows=4></textarea>
+      
+      <br><br>
+      
+      
+    
+   
+      
+      
+      <input type = "submit" value="Submit Form">
+    </div>
+    </form>
+  </body>
+</html>
